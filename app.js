@@ -1,7 +1,3 @@
-const binary = '110011001';
-
-// error in valid binary number
-
 function bin2dec(bin){
     let decimal = 0;
     let len_binary = bin.length - 1;
@@ -11,7 +7,7 @@ function bin2dec(bin){
 
         for(let i = 0; i <= (bin.length - 1); i++){
         if(bin[i] > 1){
-            console.log('Number invalid');
+            alert('Number invalid');
             break;
         }
         else{
@@ -22,10 +18,15 @@ function bin2dec(bin){
             }
         }
     } else {
-        console.log('Number invalid');
+        alert('Number invalid');
     }
 
     return decimal;
 
 }
-console.log(bin2dec(binary))
+
+function main(){
+    const binary = document.getElementById('binary').value
+    const decimal = bin2dec(binary);
+    document.getElementById('decimal').value = decimal;
+}
