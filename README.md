@@ -1,6 +1,6 @@
 # Bin2Dec
 
-This is project I developed with base in repository [App-Ideas](https://github.com/florinpop17/app-ideas). 
+This is the project that I developed based in repository [App-Ideas](https://github.com/florinpop17/app-ideas). 
 
 **Tier:** 1-Beginner
 
