@@ -8,7 +8,8 @@ function bin2dec(bin){
         for(let i = 0; i <= (bin.length - 1); i++){
         if(bin[i] > 1){
             alert('Number invalid');
-            break;
+            document.getElementById('binary').value = 0;
+            return 0;
         }
         else{
             for(let j= 0; len_binary >= 0; j++){
@@ -19,6 +20,8 @@ function bin2dec(bin){
         }
     } else {
         alert('Number invalid');
+        document.getElementById('binary').value = 0;
+        return 0;
     }
 
     return decimal;
