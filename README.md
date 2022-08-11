@@ -2,6 +2,7 @@
 
 This is the project that I developed based on repository [App-Ideas](https://github.com/florinpop17/app-ideas). 
 
+### [Git Page](https://tiago-xavier-braga.github.io/Bin2-Dec/)
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.
